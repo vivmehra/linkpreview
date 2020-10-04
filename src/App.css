@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: auto;
+  width: 85%;
 }
 
 .App-logo {
@@ -26,6 +28,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.previewContainer {
+  border-width: 3px;
+  max-width: 95%;
+  margin: auto;
+}
+.previewCard {
+  min-height: 40vh;
+}
+.imgContainer img {
+  max-height: 40vh;
+  width: 100%;
 }
 
 @keyframes App-logo-spin {
