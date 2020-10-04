@@ -16,9 +16,9 @@ const previewbox = (props) => {
               {props.linkPreview.description}
             </div>
             <footer className="cardDescription">
-              <a
-                href={`https:\\www.${props.linkPreview.domain}`}
-              >{`https:\\www.${props.linkPreview.domain}`}</a>
+              <a href={`https:\\www.${props.linkPreview.domain}`}>
+                {props.linkPreview.domain}
+              </a>
             </footer>
           </div>
         </>
